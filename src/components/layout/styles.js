@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import PoppinsRegular from '../../assets/fonts/Poppins/Poppins-Regular.ttf';
+import PoppinsRegular from '../../assets/fonts/Poppins/Poppins-SemiBold.ttf';
 import InterRegular from '../../assets/fonts/Inter/Inter-Regular.ttf';
 
 
 export const LayoutContainer = styled.div`
-  max-width: 70.625rem;
-  margin: 0 auto;
+  width: 100%;
   font-family: 'Poppins';
   a{
     text-decoration: none;
@@ -26,4 +25,8 @@ export const LayoutContainer = styled.div`
     font-family: 'Inter' ;
     src: url(${InterRegular});
   }
+`;
+export const LayoutContent = styled.div`
+ max-width: 70.625rem;
+  margin: 0 auto;
 `;

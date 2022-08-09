@@ -1,13 +1,17 @@
 import React from "react"
 import Navbar from "../header/Navbar"
 import Footer from "../footer/Footer"
-import { LayoutContainer } from "./styles"
+import { LayoutContainer, LayoutContent } from "./styles"
+
+import "normalize.css"
 
 export const Layout = ({children}) => {
   return (
     <LayoutContainer>
       <Navbar />
-      {children}
+      <LayoutContent>   
+        {children}
+      </LayoutContent>
       <Footer />
     </LayoutContainer>
   )
