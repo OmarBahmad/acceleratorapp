@@ -12,7 +12,7 @@ import {
   HamburguerMenu,
   NavBarContent,
 } from "./styles"
-import Logo from "../../assets/imgs/logo.png"
+import Logo from "../../assets/imgs/Logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
