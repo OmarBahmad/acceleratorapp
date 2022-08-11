@@ -15,7 +15,7 @@ const CookiesBar = () => {
 
   useEffect(() => {
     setShow( !localStorage.getItem("cookiesAccepted") === "true")
-  })
+  },[])
 
   return (
     <>
@@ -30,7 +30,6 @@ const CookiesBar = () => {
               <CookiesBarAcceptButton
                 onClick={() => {
                   localStorage.setItem("cookiesAccepted", true)
-                  setAccepted(true)
                 }}
               >
                 Accept cookies
