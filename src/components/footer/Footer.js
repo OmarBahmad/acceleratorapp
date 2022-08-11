@@ -7,7 +7,7 @@ import Company from './components/Company/Company'
 import Documentation from './components/Documentation/Documentation'
 import Follow from './components/Follow/Follow'
 import Copyright from './components/Copyright/Copyright'
-import {FooterContainer, FooterContent, FooterCopyright, FooterInformations} from "./styles"
+import {FooterContainer, FooterContent, FooterInformations} from "./styles"
 
 export const Footer = () => {
   return (

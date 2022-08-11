@@ -1,14 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout/Layout"
+import HeroBanner from "../components/mainpage/HeroBanner/HeroBanner"
+import IconsBanner from "../components/mainpage/IconsBanner/IconsBanner"
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Home Page!</h1>
-      <div>
-        <Link to="/about/">About</Link>
-      </div>
+      <HeroBanner />
+      <IconsBanner />
     </Layout>
   )
 }

@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+
+import { HiOutlineMenuAlt4, HiOutlineX } from "react-icons/hi"
 import {
   NavBarContainer,
   LinkInfo,
@@ -8,7 +10,7 @@ import {
   DemoResquestButton,
   LogoContainer,
   HamburguerMenu,
-  NavBarContent
+  NavBarContent,
 } from "./styles"
 import Logo from "../../assets/imgs/logo.png"
 
@@ -19,10 +21,20 @@ const Navbar = () => {
       <NavBarContainer>
         <NavBarContent>
           <LogoContainer>
-            <img src={Logo} alt="AcceleratorApp Logo" />
+            <img src={Logo} alt="AcceleratorApp Logo"/>
           </LogoContainer>
-          <HamburguerMenu>Hamburguer</HamburguerMenu>
-          <LinkContainer>
+          <HamburguerMenu
+            onClick={() => {
+              setIsOpen(!isOpen)
+            }}
+          >
+            {isOpen ? (
+              <HiOutlineX size={28} color={"white"} />
+            ) : (
+              <HiOutlineMenuAlt4 size={28} color={"white"} />
+            )}
+          </HamburguerMenu>
+          <LinkContainer className={isOpen ? "show-nav" : ""}>
             <LinkInfo>
               <Link to="/">Community</Link>
             </LinkInfo>

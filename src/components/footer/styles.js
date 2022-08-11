@@ -49,7 +49,7 @@ export const FooterLinkItem = styled.li`
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.125rem;
-    color: #b6c0cd;
+    color: #B6C0CD;
   }
   span {
     font-family: "Poppins";
