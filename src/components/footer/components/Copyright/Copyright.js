@@ -31,7 +31,7 @@ const Copyright = () => {
           </CopyrightText>
 
           <Language>
-            <VscGlobe size= {18} />
+            <VscGlobe size={18} />
             English
           </Language>
         </CopyrightLanguage>

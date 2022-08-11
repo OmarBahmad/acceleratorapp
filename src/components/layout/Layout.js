@@ -5,15 +5,13 @@ import { LayoutContainer, LayoutContent } from "./styles"
 
 import "normalize.css"
 
-export const Layout = ({children}) => {
+export const Layout = ({ children }) => {
   return (
     <LayoutContainer>
       <Navbar />
-      <LayoutContent>   
-        {children}
-      </LayoutContent>
+      <LayoutContent>{children}</LayoutContent>
       <Footer />
     </LayoutContainer>
   )
 }
-export default Layout;
+export default Layout

@@ -7,7 +7,7 @@ import {
   HeroBannerMiniTitle,
   HeroBannerTitle,
   HeroBannerText,
-  HeroBannerButton
+  HeroBannerButton,
 } from "./styles.js"
 
 const HeroBanner = () => {
@@ -21,9 +21,11 @@ const HeroBanner = () => {
           facilitate innovation between all members of our community
         </HeroBannerText>
         <HeroBannerButton>Schedule a Demo</HeroBannerButton>
-        <StaticImage src="../../../assets/imgs/Video.png"  alt="AcceleratorApp Logo"
-              placeholder="transparent"
-              />
+        <StaticImage
+          src="../../../assets/imgs/Video.png"
+          alt="AcceleratorApp Logo"
+          placeholder="transparent"
+        />
       </HeroBannerContent>
     </HeroBannerContainer>
   )

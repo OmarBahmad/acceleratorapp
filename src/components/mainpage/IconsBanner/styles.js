@@ -1,9 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
-export const IconsBannerContainer = styled.div`
-  
-`;
+export const IconsBannerContainer = styled.div``
 export const IconsBannerContent = styled.div`
-   max-width: 70.625rem;
+  max-width: 70.625rem;
   margin: 0 auto;
-`;
+`

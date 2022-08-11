@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import Icons from "./Icons/Icons"
 
 import { IconsBannerContainer, IconsBannerContent } from "./styles.js"
@@ -6,8 +6,8 @@ import { IconsBannerContainer, IconsBannerContent } from "./styles.js"
 const IconsBanner = () => {
   return (
     <IconsBannerContainer>
-      <IconsBannerContent>   
-            <Icons />
+      <IconsBannerContent>
+        <Icons />
       </IconsBannerContent>
     </IconsBannerContainer>
   )

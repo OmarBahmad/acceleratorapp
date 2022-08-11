@@ -20,7 +20,9 @@ const CommunityCard = ({
   return (
     <CommunityCardContainer>
       <CommunityCardContent>
-        <CommunitTitle className={Title.replace('/', '').replace(' ', '')}>{Title}</CommunitTitle>
+        <CommunitTitle className={Title.replace("/", "").replace(" ", "")}>
+          {Title}
+        </CommunitTitle>
         <CommunityDescription>{Description}</CommunityDescription>
         <CommunityFeatures>
           <CommunityFeatureTitle>{FeatureTitle}</CommunityFeatureTitle>

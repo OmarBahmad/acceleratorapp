@@ -21,7 +21,7 @@ const Navbar = () => {
       <NavBarContainer>
         <NavBarContent>
           <LogoContainer>
-            <img src={Logo} alt="AcceleratorApp Logo"/>
+            <img src={Logo} alt="AcceleratorApp Logo" />
           </LogoContainer>
           <HamburguerMenu
             onClick={() => {

@@ -9,11 +9,10 @@ import {
   CommunityLabel,
   CommunitDescription,
   CommunityTitleContainer,
-  CommunityAllCardsContainer
+  CommunityAllCardsContainer,
 } from "./styles"
 
 const Community = () => {
-
   return (
     <CommunityContainer>
       <CommunityContent>

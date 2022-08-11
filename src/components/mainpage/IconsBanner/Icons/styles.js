@@ -8,15 +8,15 @@ export const IconsContent = styled.div`
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  height:  52vh;
+  height: 52vh;
   width: 100%;
-  @media screen and (max-width:560px){
+  @media screen and (max-width: 560px) {
     height: 44vh;
   }
-  @media screen and (max-width:400px){
+  @media screen and (max-width: 400px) {
     height: 30vh;
   }
-  @media screen and (max-width:280px){
+  @media screen and (max-width: 280px) {
     height: 20vh;
   }
 `
@@ -27,10 +27,7 @@ export const PizzaContainer = styled.div`
   border-radius: 20%;
   position: relative;
   bottom: -7%;
-  margin:1%;
-  /* @media screen and (max-width:510px){
-    bottom: 0%;
-  } */
+  margin: 1%;
 `
 export const RocketContainer = styled.div`
   padding: 1.5% 1%;
@@ -38,8 +35,7 @@ export const RocketContainer = styled.div`
   border-radius: 20%;
   position: relative;
   bottom: 13%;
-  margin:1%;
-
+  margin: 1%;
 `
 
 export const RectangleContainer = styled.div`
@@ -48,8 +44,7 @@ export const RectangleContainer = styled.div`
   border-radius: 20%;
   position: relative;
   bottom: 24%;
-  margin:1%;
-
+  margin: 1%;
 `
 
 export const FileContainer = styled.div`
@@ -58,8 +53,7 @@ export const FileContainer = styled.div`
   border-radius: 20%;
   position: relative;
   bottom: 13%;
-  margin:1%;
-
+  margin: 1%;
 `
 
 export const ArrowContainer = styled.div`
@@ -68,12 +62,5 @@ export const ArrowContainer = styled.div`
   border-radius: 20%;
   position: relative;
   bottom: -7%;
-  margin:1%;
-  /* @media screen and (max-width:510px){
-    bottom: 0%;
-  }
-  @media screen and (max-width:376px){
-    bottom: 0%;
-  } */
-
+  margin: 1%;
 `

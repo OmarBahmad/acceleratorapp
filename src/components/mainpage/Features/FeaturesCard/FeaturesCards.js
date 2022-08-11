@@ -8,12 +8,15 @@ import {
   FeaturesCardsDescription,
 } from "./styles"
 
-const FeaturesCards = ({ title, description}) => {
+const FeaturesCards = ({ title, description }) => {
   return (
     <FeaturesCardsContainer>
       <FeaturesCardsContent>
         <FeaturesCardsIcon
-          className={title.replaceAll("/", "").replaceAll(" ", "").replaceAll(".", "")}
+          className={title
+            .replaceAll("/", "")
+            .replaceAll(" ", "")
+            .replaceAll(".", "")}
         />
         <FeaturesCardsTitle>{title}</FeaturesCardsTitle>
         <FeaturesCardsDescription>{description}</FeaturesCardsDescription>

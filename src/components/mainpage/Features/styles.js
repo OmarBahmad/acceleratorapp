@@ -51,14 +51,13 @@ export const FeaturesAllCardsContainer = styled.div`
   align-items: center;
   gap: 1.125rem;
 
-  .slider-control-bottomcenter{
+  .slider-control-bottomcenter {
     transform: translate(0rem, 2.5rem);
-    .paging-dot{
-      fill: #206ECF;
-
+    .paging-dot {
+      fill: #206ecf;
     }
   }
-  
+
   .ZapierIntegration {
     width: 4.5rem;
     height: 1.875rem;
@@ -72,33 +71,32 @@ export const FeaturesAllCardsContainer = styled.div`
 export const FeaturesCardsButtonContainer = styled.div`
   width: 32%;
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-
-@media screen and (max-width: 768px) {
-  margin-top: 2.5rem;
-  min-width: 13.75rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 2.5rem;
+    min-width: 13.75rem;
   }
 `
 
 export const FeaturesCardsButton = styled.button`
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 0.875rem;
-line-height: 150%;
-color: #206ECF;
-border: none;
-padding: 0.5625rem 0.875rem;
-gap: 0.625rem;
-border: 0.0625rem solid rgba(32, 110, 207, 0.25);
-border-radius: 0.25rem;
-display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: #206ecf;
+  border: none;
+  padding: 0.5625rem 0.875rem;
+  gap: 0.625rem;
+  border: 0.0625rem solid rgba(32, 110, 207, 0.25);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 `

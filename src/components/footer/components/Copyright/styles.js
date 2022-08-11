@@ -83,8 +83,8 @@ export const CopyrightText = styled.div`
     padding-right: 0.625rem;
   }
   @media screen and (max-width: 350px) {
-border-right: none;
-padding-right: 0.3125rem;
+    border-right: none;
+    padding-right: 0.3125rem;
   }
 `
 

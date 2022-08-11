@@ -1,10 +1,8 @@
 import styled from "styled-components"
 
-export const NewsLetterContainer = styled.div`
-`
+export const NewsLetterContainer = styled.div``
 
-export const NewsLetterContent = styled.div`
-`
+export const NewsLetterContent = styled.div``
 
 export const NewsLetterTitle = styled.h1`
   font-family: "Poppins";
@@ -49,5 +47,4 @@ export const NewsLetterInput = styled.div`
     position: absolute;
     transform: translate(-2.4375rem, -0.8125rem);
   }
- 
 `

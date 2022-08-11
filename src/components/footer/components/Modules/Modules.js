@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import {ModulesContainer, ModulesContent } from "./styles"
+import { ModulesContainer, ModulesContent } from "./styles"
 import { FooterLinkTitle, FooterLinkList, FooterLinkItem } from "../../styles"
 
 const Modules = () => {

@@ -31,11 +31,7 @@ const Features = () => {
   const isMobile = width <= 768
 
   let slides = FeaturesCardContainer()?.map((card, index) => {
-    return (
- 
-        <FeaturesCards key={index} {...card} />
-    
-    )
+    return <FeaturesCards key={index} {...card} />
   })
 
   return (
@@ -49,18 +45,17 @@ const Features = () => {
         </FeaturesTitleContainer>
         <FeaturesAllCardsContainer>
           {isMobile ? (
-          slides.length>0 &&
-          <>
-                <Carousel>
-                {slides}
-              </Carousel>
-              <FeaturesCardsButtonContainer>
-                <FeaturesCardsButton>
-                  Discover its functions
-                  <HiOutlineArrowNarrowRight size={25} />
-                </FeaturesCardsButton>
-              </FeaturesCardsButtonContainer>
+            slides.length > 0 && (
+              <>
+                <Carousel>{slides}</Carousel>
+                <FeaturesCardsButtonContainer>
+                  <FeaturesCardsButton>
+                    Discover its functions
+                    <HiOutlineArrowNarrowRight size={25} />
+                  </FeaturesCardsButton>
+                </FeaturesCardsButtonContainer>
               </>
+            )
           ) : (
             <>
               {FeaturesCardContainer()?.map((card, index) => {

@@ -2,8 +2,7 @@ const CommunityCardContent = () => {
   return [
     {
       title: "Incubator/Accelerator",
-      description:
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. \n\n Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
+      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. \n\n Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
       featuretitle: "Popular Features",
       featuredescription: [
         "Lorem ipsum dolor sit",
