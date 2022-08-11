@@ -30,23 +30,21 @@ export const LayoutContainer = styled.div`
   }
 
   background-image: url(${background});
-  background-size: 100% 48%;
+  background-size: 100% 1132px;
+  overflow: hidden;
   background-repeat: no-repeat;
-  ::after{
+  ::before{
     content: '';
     display: block;
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 61%;
     top: 0;
-    right: -29.5%;
+    right: 0;
     background-image: url(${looper});
     background-repeat: no-repeat;
     pointer-events: none;
   }
-
 `;
 export const LayoutContent = styled.div`
- max-width: 70.625rem;
-  margin: 0 auto;
 `;

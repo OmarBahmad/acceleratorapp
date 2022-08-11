@@ -74,7 +74,7 @@ export const LinkContainer = styled.ul`
     padding: 0;
     position: absolute;
     top: 3.75rem;
-    border-radius: 0px;
+    border-radius: 0rem;
   }
 `
 
@@ -101,7 +101,8 @@ export const LinkInfo = styled.li`
     line-height: 1.25rem;
   }
   @media screen and (max-width: 1024px) {
-    margin: 2.9375rem 2.1875rem 2.1875rem 0;
+    margin: 3rem auto;
+    width: fit-content;
     a {
       font-size: 1.5rem;
     }
@@ -129,7 +130,8 @@ export const SignInButton = styled.li`
     line-height: 1.375rem;
   }
   @media screen and (max-width: 1024px) {
-    margin: 2.9375rem 2.1875rem 2.1875rem 0;
+    margin: 3rem auto;
+    width: fit-content;
     a {
       font-size: 1.5rem;
     }
@@ -159,7 +161,8 @@ export const DemoResquestButton = styled.li`
     line-height: 1.25rem;
   }
   @media screen and (max-width: 1024px) {
-    margin: 2.9375rem 2.1875rem 2.1875rem 0;
+    margin: 3rem auto;
+    width: fit-content;
     min-width: 14.5rem;
     a {
       font-size: 1.5rem;

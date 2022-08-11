@@ -13,11 +13,17 @@ export const FooterContent = styled.div`
 export const FooterInformations = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0.25);
+  @media screen and (max-width: 768px) {
+    justify-content: start;
+    padding: 0.9375rem;
+    gap: 19%;
+    border-bottom: none;
+  }
 `
 
 export const FooterLinkTitle = styled.h3`
@@ -49,7 +55,7 @@ export const FooterLinkItem = styled.li`
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.125rem;
-    color: #B6C0CD;
+    color: #B6C0CD !important;
   }
   span {
     font-family: "Poppins";

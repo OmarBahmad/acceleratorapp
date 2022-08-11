@@ -8,7 +8,7 @@ export const IconsContent = styled.div`
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  height:  70vh;
+  height:  52vh;
   width: 100%;
   @media screen and (max-width:560px){
     height: 44vh;
@@ -23,7 +23,7 @@ export const IconsContent = styled.div`
 
 export const PizzaContainer = styled.div`
   padding: 4.1% 4%;
-  box-shadow: 0px 16px 48px rgb(0 0 0 / 18%);
+  box-shadow: 0rem 1rem 3rem rgb(0 0 0 / 18%);
   border-radius: 20%;
   position: relative;
   bottom: -7%;
@@ -34,7 +34,7 @@ export const PizzaContainer = styled.div`
 `
 export const RocketContainer = styled.div`
   padding: 1.5% 1%;
-  box-shadow: 0px 16px 48px rgb(0 0 0 / 18%);
+  box-shadow: 0rem 1rem 3rem rgb(0 0 0 / 18%);
   border-radius: 20%;
   position: relative;
   bottom: 13%;
@@ -44,7 +44,7 @@ export const RocketContainer = styled.div`
 
 export const RectangleContainer = styled.div`
   padding: 3.8% 3.8%;
-  box-shadow: 0px 16px 48px rgb(0 0 0 / 18%);
+  box-shadow: 0rem 1rem 3rem rgb(0 0 0 / 18%);
   border-radius: 20%;
   position: relative;
   bottom: 24%;
@@ -54,7 +54,7 @@ export const RectangleContainer = styled.div`
 
 export const FileContainer = styled.div`
   padding: 3.3% 4.1%;
-  box-shadow: 0px 16px 48px rgb(0 0 0 / 18%);
+  box-shadow: 0rem 1rem 3rem rgb(0 0 0 / 18%);
   border-radius: 20%;
   position: relative;
   bottom: 13%;
@@ -64,7 +64,7 @@ export const FileContainer = styled.div`
 
 export const ArrowContainer = styled.div`
   padding: 2% 1.1%;
-  box-shadow: 0px 16px 48px rgb(0 0 0 / 18%);
+  box-shadow: 0rem 1rem 3rem rgb(0 0 0 / 18%);
   border-radius: 20%;
   position: relative;
   bottom: -7%;

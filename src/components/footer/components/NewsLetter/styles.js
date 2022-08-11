@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
-export const NewsLetterContainer = styled.div``
+export const NewsLetterContainer = styled.div`
+`
 
 export const NewsLetterContent = styled.div`
 `
@@ -25,9 +26,9 @@ export const NewsLetterLabel = styled.h4`
 `
 
 export const NewsLetterInput = styled.div`
-  width: 27.625rem;
+  width: 39%;
   margin: 0 auto;
-  padding: 16px 0 2.1875rem 0;
+  padding: 1rem 0 2.1875rem 0;
   border-bottom: solid 0.0938rem rgba(255, 255, 255, 0.25);
 
   input {

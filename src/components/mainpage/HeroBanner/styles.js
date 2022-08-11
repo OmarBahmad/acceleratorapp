@@ -9,6 +9,8 @@ export const HeroBannerContent = styled.div`
   align-content: center;
   justify-content: center;
   align-items: center;
+  max-width: 70.625rem;
+  margin: 0 auto;
 `
 export const HeroBannerMiniTitle = styled.h3`
   font-family: "Poppins";
@@ -32,6 +34,14 @@ export const HeroBannerTitle = styled.h2`
   width: 70%;
   color: #ffffff;
   margin: 1.5rem 0 0 0;
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 2.5rem;
+  }
 `
 export const HeroBannerText = styled.p`
   font-family: "Poppins";
