@@ -1,5 +1,4 @@
-const FeaturesCardContainer = () => {
-  return [
+const FeaturesCardContainer = [
     {
       title: "Multilingual",
       description:
@@ -34,6 +33,5 @@ const FeaturesCardContainer = () => {
       description: `And more features integrated within the software to make your incubator/accelerator run more smoothly`,
     },
   ]
-}
 
 export default FeaturesCardContainer

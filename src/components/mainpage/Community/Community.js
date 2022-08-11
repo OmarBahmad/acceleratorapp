@@ -24,7 +24,7 @@ const Community = () => {
           </CommunitDescription>
         </CommunityTitleContainer>
         <CommunityAllCardsContainer>
-          {CommunityCardContent()?.map((item, key) => {
+          {CommunityCardContent.map((item, key) => {
             return (
               <CommunityCard
                 Title={item.title}
