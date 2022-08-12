@@ -42,10 +42,15 @@ and:
 Now you just have to browse http://localhost:8000/ and see the content of the project.
 
 <h3>5 - Photos from the Project</h3>
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280579-898fedde-1cea-4ce6-b5bd-6a695b12d574.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280615-aeabc3f8-f1d1-444d-81fc-b7f00745aebd.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280654-08b5d5bc-9425-4a6b-a47a-caad3d679004.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280667-5ed04d7a-a5a6-4581-bfec-da539bcd0e17.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280737-e9de5354-85f0-4b7e-b9df-bd712f558886.png)
 
 <h3>What now?<h3>
