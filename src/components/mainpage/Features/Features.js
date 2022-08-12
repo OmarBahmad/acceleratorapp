@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { HiOutlineArrowNarrowRight } from "react-icons/hi"
 import Carousel from "nuka-carousel"
+import {isMobile} from 'react-device-detect';
 
 import FeaturesCardContainer from "./FeaturesCardContainer/FeaturesCardContainer"
 import FeaturesCards from "./FeaturesCard/FeaturesCards"
@@ -16,19 +17,6 @@ import {
 } from "./styles"
 
 const Features = () => {
-  const [width, setWidth] = useState(document.body.clientWidth)
-
-  function handleWindowSizeChange() {
-    setWidth(document.body.clientWidth)
-  }
-  useEffect(() => {
-    document.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      document.removeEventListener("resize", handleWindowSizeChange)
-    }
-  }, [])
-
-  const isMobile = width <= 768
 
   let slides = FeaturesCardContainer.map((card, index) => {
     return <FeaturesCards key={index} {...card} />
