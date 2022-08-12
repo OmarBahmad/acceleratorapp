@@ -16,19 +16,19 @@ import {
 } from "./styles"
 
 const Features = () => {
-  // const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(document.body.clientWidth)
 
-  // function handleWindowSizeChange() {
-  //   setWidth(window.innerWidth)
-  // }
-  // useEffect(() => {
-  //   window.addEventListener("resize", handleWindowSizeChange)
-  //   return () => {
-  //     window.removeEventListener("resize", handleWindowSizeChange)
-  //   }
-  // }, [])
+  function handleWindowSizeChange() {
+    setWidth(document.body.clientWidth)
+  }
+  useEffect(() => {
+    document.addEventListener("resize", handleWindowSizeChange)
+    return () => {
+      document.removeEventListener("resize", handleWindowSizeChange)
+    }
+  }, [])
 
-  const isMobile = window.innerWidth <= 768
+  const isMobile = width <= 768
 
   let slides = FeaturesCardContainer.map((card, index) => {
     return <FeaturesCards key={index} {...card} />
