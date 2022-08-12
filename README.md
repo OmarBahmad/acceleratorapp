@@ -26,7 +26,7 @@
 <li>nuka-carousel</li>
 <li>react-icons</li>
 <li>styled-components</li>
-<h4>3 - How do I build tihs project?</h4>
+<h3>4 - How do I build tihs project?</h3>
 Its in fact very simple first you need to install the Gatsby CLI, you can find the tutorial on https://www.gatsbyjs.com/docs/tutorial/part-0/ or just be sure that you have node and git installed and run the command:
 
     npm install -g gatsby-cli
@@ -41,7 +41,7 @@ and:
 
 Now you just have to browse http://localhost:8000/ and see the content of the project.
 
-<h4>4 - Photos from the Project</h4>
+<h3>5 - Photos from the Project</h3>
 ![image](https://user-images.githubusercontent.com/78921702/184280579-898fedde-1cea-4ce6-b5bd-6a695b12d574.png)
 ![image](https://user-images.githubusercontent.com/78921702/184280615-aeabc3f8-f1d1-444d-81fc-b7f00745aebd.png)
 ![image](https://user-images.githubusercontent.com/78921702/184280654-08b5d5bc-9425-4a6b-a47a-caad3d679004.png)
