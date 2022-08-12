@@ -27,10 +27,7 @@ const Community = () => {
           {CommunityCardContent.map((item, key) => {
             return (
               <CommunityCard
-                Title={item.title}
-                Description={item.description}
-                FeatureTitle={item.featuretitle}
-                FeatureDescription={item.featuredescription}
+               {... item}
                 key={key}
               />
             )

@@ -12,22 +12,22 @@ import {
 } from "./styles"
 
 const CommunityCard = ({
-  Title,
-  Description,
-  FeatureTitle,
-  FeatureDescription,
+  title,
+  description,
+  featureTitle,
+  featureDescription,
 }) => {
   return (
     <CommunityCardContainer>
       <CommunityCardContent>
-        <CommunitTitle className={Title.replace("/", "").replace(" ", "")}>
-          {Title}
+        <CommunitTitle className={title.replace("/", "").replace(" ", "")}>
+          {title}
         </CommunitTitle>
-        <CommunityDescription>{Description}</CommunityDescription>
+        <CommunityDescription>{description}</CommunityDescription>
         <CommunityFeatures>
-          <CommunityFeatureTitle>{FeatureTitle}</CommunityFeatureTitle>
+          <CommunityFeatureTitle>{featureTitle}</CommunityFeatureTitle>
           <CommunityFeatureDescription>
-            {FeatureDescription?.map((feature, key) => {
+            {featureDescription?.map((feature, key) => {
               return (
                 <CommunityFeatureDescriptionItem key={key}>
                   {feature}
