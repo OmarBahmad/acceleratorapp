@@ -16,15 +16,18 @@ import {
 } from "./styles"
 
 const Features = () => {
-  const [width, setWidth] = useState(window.innerWidth)
+  const isBrowser = typeof window !== "undefined"
+  const [width, setWidth] = useState(1200)
 
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth)
-  }
   useEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange)
+    if (isBrowser) {
+      function handleWindowSizeChange() {
+        setWidth(window.innerWidth)
+      }
+      window.addEventListener("resize", handleWindowSizeChange)
+      return () => {
+        window.removeEventListener("resize", handleWindowSizeChange)
+      }
     }
   }, [])
 

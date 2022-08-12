@@ -30,6 +30,7 @@ const CookiesBar = () => {
               <CookiesBarAcceptButton
                 onClick={() => {
                   localStorage.setItem("cookiesAccepted", true)
+                  setShow(false)
                 }}
               >
                 Accept cookies
