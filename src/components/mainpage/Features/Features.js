@@ -16,7 +16,7 @@ import {
 } from "./styles"
 
 const Features = () => {
-  const [width, setWidth] = useState(window.innerWidth)
+  // const [width, setWidth] = useState(window.innerWidth)
 
   // function handleWindowSizeChange() {
   //   setWidth(window.innerWidth)
