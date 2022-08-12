@@ -17,7 +17,7 @@ import {
 
 const Features = () => {
   const isBrowser = typeof window !== "undefined"
-  const [width, setWidth] = useState("")
+  const [width, setWidth] = useState(1200)
 
   useEffect(() => {
     if (isBrowser) {
