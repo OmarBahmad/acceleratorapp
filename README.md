@@ -48,6 +48,6 @@ Now you just have to browse http://localhost:8000/ and see the content of the pr
 ![image](https://user-images.githubusercontent.com/78921702/184280667-5ed04d7a-a5a6-4581-bfec-da539bcd0e17.png)
 ![image](https://user-images.githubusercontent.com/78921702/184280737-e9de5354-85f0-4b7e-b9df-bd712f558886.png)
 
-<h2>What now?<h2>
+<h3>What now?<h3>
 <p>I sincerely hope that you enjoy my work, I taked about 12 hours on doing the project, searching the plugins, fixing bugs and make it responsible. Thank you for taking your time and have a nice day </p>
 <h2>So Long, and Thanks for All the Fish!<h2>
