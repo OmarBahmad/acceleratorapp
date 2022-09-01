@@ -16,17 +16,23 @@ import {
 } from "./styles"
 
 const Features = () => {
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(1500)
+  const [domIsLoaded, setDomIsLoaded] = useState(false)
+  useEffect(() => setDomIsLoaded(typeof document !== "undefined"),[])  
 
   function handleWindowSizeChange() {
+    if(domIsLoaded){
     setWidth(window.innerWidth)
+    }
   }
   useEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange)
+    if(domIsLoaded){
+      window.addEventListener("resize", handleWindowSizeChange)
+      return () => {
+        window.removeEventListener("resize", handleWindowSizeChange)
+      }
     }
-  }, [])
+  }, [domIsLoaded])
 
   const isMobile = width <= 768
 
