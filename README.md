@@ -26,13 +26,33 @@
 <li>nuka-carousel</li>
 <li>react-icons</li>
 <li>styled-components</li>
-<h4>3 - Photos from the Project</h4>
+<h3>4 - How do I build tihs project?</h3>
+Its in fact very simple first you need to install the Gatsby CLI, you can find the tutorial on https://www.gatsbyjs.com/docs/tutorial/part-0/ or just be sure that you have node and git installed and run the command:
+
+    npm install -g gatsby-cli
+
+Then go main directory of this project, open a terminal and run two commands in sequence:
+
+    npm install
+
+and:
+
+    gatsby develop
+
+Now you just have to browse http://localhost:8000/ and see the content of the project.
+
+<h3>5 - Photos from the Project</h3>
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280579-898fedde-1cea-4ce6-b5bd-6a695b12d574.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280615-aeabc3f8-f1d1-444d-81fc-b7f00745aebd.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280654-08b5d5bc-9425-4a6b-a47a-caad3d679004.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280667-5ed04d7a-a5a6-4581-bfec-da539bcd0e17.png)
+  
 ![image](https://user-images.githubusercontent.com/78921702/184280737-e9de5354-85f0-4b7e-b9df-bd712f558886.png)
 
-<h2>What now?<h2>
-<p>I sincerely hope that you enjoy my work, I taked about 12 hours on doing the project, searching the plugins, fixing bugs and make it responsible. Thank you for taking your time and have a nice day </p>
+<h3>What now?<h3>
+<p>I sincerely hope that you enjoy my work, I took 12 hours on doing the project, searching the plugins, fixing bugs and make it responsible. Thank you for taking your time and have a nice day </p>
 <h2>So Long, and Thanks for All the Fish!<h2>
